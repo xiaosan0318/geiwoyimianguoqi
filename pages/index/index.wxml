@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view id="firstDiv"><canvas id="first" canvas-id="firstCanvas"/></view>
+  
+  <view>
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  
+  <button bindtap="save">保存</button>
+  
+  </view>
+  
+</view>

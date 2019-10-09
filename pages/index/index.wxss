@@ -1,0 +1,21 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#first{
+  height:480rpx;
+  width: 480rpx;
+  margin: 0;
+  
+}
+
+#firstDiv{
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  border:10rpx solid orangered;
+  border-right: 9rpx solid orangered;
+}
